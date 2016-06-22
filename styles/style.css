@@ -1,0 +1,121 @@
+ *{ font-family: 'Open Sans'}
+.header{
+    height: 20vh;
+    width: 90vw;
+    background-color: rgb(206, 43, 55);
+    margin-left: 4vw;
+    margin-top: 4vh;
+    box-shadow: 3px 4px 7px;
+}      
+.header-logo{
+    height: 18vh;
+    background-image: url(../assets/images/logo2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+    margin-left: 2vw;
+
+    
+}
+.header-logo:hover{
+    height: 18vh;
+    margin-top: 1vh;
+     background-image: url(../assets/images/ferarri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.header-button{
+    float: right;
+    text-align: center;
+    font-size: 18px;
+   color: rgb(254, 254, 3);
+    margin-top: 3vh;
+    text-shadow: 1px 1px 1px;
+}
+.header-button:hover{
+    float: right;
+    text-align: center;
+    font-size: 18px;
+   color: rgb(0, 0, 0);
+    margin-top: 3vh;
+    text-shadow: 1px 1px 1px;
+    cursor: default;
+}
+.header-button2{color: rgb(254, 254, 3);
+     text-shadow: 1px 1px 1px;
+}
+.header-button2:hover{color: rgb(0, 0, 0);
+     text-shadow: 1px 1px 1px;
+}
+.container{
+    height: 180vh;
+    width: 70vw;
+    background-color: white;
+    margin-top: 10vh;
+    margin-left: 14vw;
+   box-shadow: 3px 4px 7px;
+    opacity: 0.85;
+}
+.footer{
+    height: 40vh;
+    width: 90vw;
+    background-color: rgb(0, 146, 70);
+    margin-left: 4vw;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    box-shadow: 3px 4px 7px;
+}
+.footer-gif{
+    height: 40vh;
+}
+.footer-gif img{
+     height:40vh;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.7;
+}
+.footer-gif img:hover{
+     height:40vh;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    opacity: 1;
+}
+.footer-text{font-size: 16px;
+color: white;
+text-shadow: 0.5px 0.5px 1px;
+    text-align: center;
+    margin-top: 6vh;
+    letter-spacing: 1.5px;
+}
+.footer-text:hover{font-size: 16px;
+color: black;
+text-shadow: 0.5px 0.5px 1px;
+    text-align: center;
+    margin-top: 6vh;
+    letter-spacing: 1.5px;
+}
+.footer-text2{font-size: 14px;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px;
+    text-align: center;
+    margin-top: 3vh;
+    letter-spacing: 1.5px;
+    
+}
+.footer-text2:hover{font-size: 14px;
+    color:black;
+    text-shadow: 0.5px 0.5px 1px;
+    text-align: center;
+    margin-top: 3vh;
+    letter-spacing: 1.5px;
+}
+.container-fluid{
+    background-image: url(../assets/images/fon3.jpg);
+     background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
